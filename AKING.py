@@ -9,7 +9,7 @@ if bit == '64bit':
     from AKING import Legend
     Legend()
 elif bit == '32bit':
-    from AKING32 import Legend
+    from AKING import Legend
     Legend()
 else:
     print('\n YOUR DEVICE IS NOT SUPPORT THIS COMMAND')
